@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "name": "CubeControl",
     "maps": [
         {
@@ -9,7 +10,25 @@
                     "name": "XAxis",
                     "type": "Button",
                     "id": "2a2a59da-fde1-4f81-ad7a-11631e8f3acb",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ZAxis",
+                    "type": "Button",
+                    "id": "937e5285-7ff6-4e8a-84ac-029a51e4a621",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "de2d94a3-b27d-4298-b96d-29c64bd9d09d",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -70,6 +89,39 @@
                     "action": "XAxis",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "e9e4c8fc-ed67-4502-aaaf-60f0586d827b",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ZAxis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f6159ed3-af00-4e91-bce3-2c0d73ebb603",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ZAxis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4773f1fe-bbc2-462b-b5fb-2bcd150d3cdf",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
